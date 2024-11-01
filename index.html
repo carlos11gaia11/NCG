@@ -1,192 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trinity E-Sports</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <style>
-    body {
-      background-color: rgb(0, 0, 0);
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity E-Sports</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+        }
 
-      .titulo h1 {
-          text-align: center;
-          margin-top: 10px;
-          font-size: 80px;
-          text-shadow: 2px 2px 4px gray;
-          font-family: "Times New Roman", Times, serif;
-          font-weight: bold;
-          text-decoration: none;
-      }
+        .titulo h1 {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 80px;
+            text-shadow: 2px 2px 4px gray;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-      .titulo h2 {
-          text-align: center;
-          margin-top: 10px;
-          font-size: 40px;
-          text-shadow: 2px 2px 4px gray;
-          font-family: "Times New Roman", Times, serif;
-          font-weight: bold;
-          text-decoration: none;
-      }
+        .titulo h2 {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px gray;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-    .painel-container {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 40vh;
-    }
+        .painel-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40vh;
+        }
 
-    .painel {
-      background-color: yellow;
-      width: 15%;
-      padding: 10px;
-      border-radius: 10px;
-    }
+        .painel {
+            background-color: yellow;
+            width: 15%;
+            padding: 10px;
+            border-radius: 10px;
+        }
 
-    .painel img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
+        .painel img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
 
-    .painel h3 {
-      text-align: center;
-      margin-top: 10px;
-    }
+        .painel h3 {
+            text-align: center;
+            margin-top: 10px;
+        }
 
-     
-  
-  </style>
+
+    </style>
 </head>
 <body>
 
-  <div class="w3-container w3-center" style="padding: 1px;">
-    <div class="w3-panel w3-yellow w3-card-3" style="padding">
-      <div class="titulo w3-text-white"<b><h1>Trinity E-Sports</h1></b>
-        </div>
-    </div>
-  <img src="trinity.png" alt="Imagem 1">
-  </div>
+    <nav class="w3-bar w3-black">
+        <a href="#titulo" class="w3-bar-item w3-button">Título</a>
+        <a href="#timea" class="w3-bar-item w3-button">Time A</a>
+        <a href="#timeb" class="w3-bar-item w3-button">Time B</a>
+        <a href="#inscricao" class="w3-bar-item w3-button">Inscreva-se</a>
+    </nav>
 
-    <div class="w3-text-white w3-center"> <h3>Trinity é um time de eSports em plena ascensão, 
+    <div class="w3-container w3-center" style="padding: 1px;" id="titulo">
+        <div class="w3-panel w3-yellow w3-card-3">
+            <div class="titulo w3-text-white">
+                <b><h1>Trinity E-Sports</h1></b>
+            </div>
+        </div>
+        <img src="trinity.png" alt="Imagem 1">
+    </div>
+
+    <div class="w3-text-white w3-center">
+        <h3>Trinity é um time de eSports em plena ascensão, 
         que tem se destacado no competitivo cenário de League of Legends. Com uma equipe 
         talentosa e dedicada, o time está se esforçando para aprimorar suas habilidades e 
         estratégias, buscando não apenas participar, mas se firmar como uma das maiores 
         potências do mundo nesse jogo. Através de treinos intensivos, análise de desempenho 
         e uma forte colaboração entre os jogadores, Trinity visa conquistar seu espaço entre 
-        os gigantes do eSports e deixar sua marca na história do League of Legends.</h3></div>
+        os gigantes do eSports e deixar sua marca na história do League of Legends.</h3>
+    </div>
 
+    <div class="titulo h2 w3-text-white w3-center w3-hover-opacity" id="timea">
+        <p>
+            <a href="https://www.op.gg/multisearch/br?summoners=TnT+JCZNeto%23TnT%2CTnT+Miiiaaaauu%23tnt%2CTnT+Derrotinha%23tnt%2CTnT+ErosK%23tnt%2CTnT+Bloody%23tnt" target="_blank">
+                <h1>Time A</h1>
+            </a>
+        </p>
+    </div>
 
+    <div class="painel-container">
+        <!-- Painel 1 -->
+        <div class="painel w3-hover-opacity">
+            <img src="eros.png" alt="Imagem 1" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20ErosK-TnT" target="_blank"><h3><b>TnT Eros</b></h3></a>
+        </div>
+        <!-- Painel 2 -->
+        <div class="painel w3-hover-opacity">
+            <img src="miau.png" alt="Imagem 2" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Miiiaaaauu-TnT" target="_blank"><h3><b>TnT Miau</b></h3></a>
+        </div>
+        <!-- Painel 3 -->
+        <div class="painel w3-hover-opacity">
+            <img src="derrotinha.png" alt="Imagem 3" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Derrotinha-TnT" target="_blank"><h3><b>TnT Derrotinha</b></h3></a>
+        </div>
+        <!-- Painel 4 -->
+        <div class="painel w3-hover-opacity">
+            <img src="blood.png" alt="Imagem 4" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Bloody-TnT" target="_blank"><h3><b>TnT Bloody</b></h3></a>
+        </div>
+        <!-- Painel 5 -->
+        <div class="painel w3-hover-opacity">
+            <img src="neto.png" alt="Imagem 5" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20JCZNeto-TnT" target="_blank"><h3><b>TnT JCZNeto</b></h3></a>
+        </div>
+    </div>
 
-<div class="titulo h2 w3-text-white w3-center  w3-hover-opacity"> 
-<p><a href="https://www.op.gg/multisearch/br?summoners=TnT+JCZNeto%23TnT%2CTnT+Miiiaaaauu%23tnt%2CTnT+Derrotinha%23tnt%2CTnT+ErosK%23tnt%2CTnT+Bloody%23tnt"><h1>Time A</h1></a></p>
-</div>
+    <div class="w3-text-white w3-center">
+        <h3>No Time A, acreditamos que o sucesso vem da união entre talento, dedicação e paixão pelo jogo. Nossa equipe principal é formada por jogadores de elite, cada um com habilidades únicas e um estilo de jogo afiado. Cada integrante se destaca pela excelência em sua função e pelo compromisso de alcançar a vitória em todos os desafios.</h3>
+    </div>
 
-
-  <div class="painel-container">
-    <!-- Painel 1 -->
-    <div class="painel w3-hover-opacity">
+    <hr style="border: none; height: 1px; background-color: yellow; margin: 20px 0;">
     
-      <img src="eros.png" alt="Imagem 1">
-      <a href="https://www.op.gg/summoners/br/TnT%20ErosK-TnT" target="_blank"> <h3><b>TnT Eros</b></h3></a>
+<div class="titulo h2 w3-text-white w3-center w3-hover-opacity" id="timeb">
+        <p>
+            <a href="https://www.op.gg/multisearch/br?summoners=TnT+JCZNeto%23TnT%2CTnT+Miiiaaaauu%23tnt%2CTnT+Derrotinha%23tnt%2CTnT+ErosK%23tnt%2CTnT+Bloody%23tnt"target="_blank">
+                <h1>Time B</h1>
+            </a>
+        </p>
     </div>
 
-    <!-- Painel 2 -->
-    <div class="painel w3-hover-opacity">
-      <img src="miau.png" alt="Imagem 2">
-      <a href="https://www.op.gg/summoners/br/TnT%20Miiiaaaauu-TnT" target="_blank"> <h3><b>TnT Miau</b></h3></a>
+    <div class="painel-container">
+
+        <!-- Painel 1 -->
+        <div class="painel w3-hover-opacity">
+            <img src="shina.png" alt="Imagem 1" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Shinazugawa-TnT" target="_blank"><h3><b>TnT Shinazugawa</b></h3></a>
+        </div>
+        <!-- Painel 2 -->
+        <div class="painel w3-hover-opacity">
+            <img src="boneco.png" alt="Imagem 2" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Adefinir-TnT" target="_blank"><h3><b>TnT Adefinir</b></h3></a>
+        </div>
+        <!-- Painel 3 -->
+        <div class="painel w3-hover-opacity">
+            <img src="gaia.png" alt="Imagem 3" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%2011gaia11-TnT" target="_blank"><h3><b>TnT 11gaia11</b></h3></a>
+        </div>
+        <!-- Painel 4 -->
+        <div class="painel w3-hover-opacity">
+            <img src="jhowjhow.png" alt="Imagem 4" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20JhonJhon-TnT" target="_blank"><h3><b>TnT JhowJhow</b></h3></a>
+        </div>
+        <!-- Painel 5 -->
+        <div class="painel w3-hover-opacity">
+            <img src="pruds.png" alt="Imagem 5" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Pruds-TnT" target="_blank"><h3><b>TnT Pruds</b></h3></a>
+        </div>
     </div>
 
-    <!-- Painel 3 -->
-    <div class="painel w3-hover-opacity">
-      <img src="derrotinha.png" alt="Imagem 3">
-      <a href="https://www.op.gg/summoners/br/TnT%20Derrotinha-TnT" target="_blank"> <h3><b>TnT Derrotinha</b></h3></a>
+    <div class="w3-text-white w3-center">
+        <h3>O Time B (Academy) é a força emergente do nosso clube, formado por talentos promissores que estão prontos para brilhar no cenário competitivo. Enquanto nossa equipe principal, Time A, se prepara para as grandes ligas, o Time B está em constante evolução, disputando vagas e mostrando sua habilidade em campeonatos de alto nível.</h3>
     </div>
 
-    <!-- Painel 4 -->
-    <div class="painel w3-hover-opacity">
-      <img src="blood.png" alt="Imagem 4">
-      <a href="https://www.op.gg/summoners/br/TnT%20Bloody-TnT" target="_blank"> <h3><b>TnT Bloody</b></h3></a>
-    </div>
-
-    <!-- Painel 5 -->
-    <div class="painel w3-hover-opacity">
-      <img src="neto.png" alt="Imagem 5">
-      <a href="https://www.op.gg/summoners/br/TnT%20JCZNeto-TnT" target="_blank"> <h3><b>TnT JCZNeto</b></h3></a>
-    </div>
-  </div>
+<hr style="border: none; height: 1px; background-color: yellow; margin: 20px 0;"> ----------------------------------------------------------------------------------------------------------
 
 
-  <div class="w3-text-white w3-center"> <h3>No Time A, acreditamos que o sucesso vem da união entre talento, dedicação e paixão pelo jogo. Nossa equipe principal é formada por jogadores de elite, cada um com habilidades únicas e um estilo de jogo afiado. Cada integrante se destaca pela excelência em sua função e pelo compromisso de alcançar a vitória em todos os desafios.</h3>
-</div>
-
-<hr style="border: none; height: 1px; background-color: white; margin: 20px 0;"> ----------------------------------------------------------------------------------------------------------
-
-
-<div class="titulo h2 w3-text-white w3-center  w3-hover-opacity"> 
-<p><a href="https://www.op.gg/multisearch/br?summoners=TnT+JCZNeto%23TnT%2CTnT+Miiiaaaauu%23tnt%2CTnT+Derrotinha%23tnt%2CTnT+ErosK%23tnt%2CTnT+Bloody%23tnt"><h1>Time B</h1></a></p>
-</div>
-
-
-  <div class="painel-container">
-    <!-- Painel 1 -->
-    <div class="painel w3-hover-opacity">
-    
-      <img src="boneco.png" alt="Imagem 1">
-      <a href="https://www.op.gg/summoners/br/TnT%20Shinazugawa-TnT" target="_blank"> <h3><b>TnT Shinazugawa </b></h3></a>
-    </div>
-
-    <!-- Painel 2 -->
-    <div class="painel w3-hover-opacity">
-      <img src="boneco.png" alt="Imagem 2">
-      <a href="https://www.op.gg/summoners/br/TnT%20Miiiaaaauu-TnT" target="_blank"> <h3><b>TnT Adefinir</b></h3></a>
-    </div>
-
-    <!-- Painel 3 -->
-    <div class="painel w3-hover-opacity">
-      <img src="boneco.png" alt="Imagem 3">
-      <a href="https://www.op.gg/summoners/br/TnT%2011gaia11-TnT" target="_blank"> <h3><b>TnT 11gaia11</b></h3></a>
-    </div>
-
-    <!-- Painel 4 -->
-    <div class="painel w3-hover-opacity">
-      <img src="boneco.png" alt="Imagem 4">
-      <a href="https://www.op.gg/summoners/br/TnT%20JhonJhon-TnT" target="_blank"> <h3><b>TnT JhowJhow</b></h3></a>
-    </div>
-
-    <!-- Painel 5 -->
-    <div class="painel w3-hover-opacity">
-      <img src="boneco.png" alt="Imagem 5">
-      <a href="https://www.op.gg/summoners/br/TnT%20Pruds-TnT" target="_blank"> <h3><b>TnT Pruds</b></h3></a>
-    </div>
-  </div>
-
-
-  <div class="w3-text-white w3-center"> <h3>O Time B (Academy) é a força emergente do nosso clube, formado por talentos promissores que estão prontos para brilhar no cenário competitivo. Enquanto nossa equipe principal, Time A, se prepara para as grandes ligas, o Time B está em constante evolução, disputando vagas e mostrando sua habilidade em campeonatos de alto nível..</h3>
-</div>
-
-<hr style="border: none; height: 1px; background-color: white; margin: 20px 0;"> ----------------------------------------------------------------------------------------------------------
-
-
-<div class="w3-container w3-padding-32 w3-black w3-color-text-white" style="margin-top: 50px;">
+<div class="w3-container w3-padding-32 w3-black w3-color-text-white" style="margin-top: 50px;" id="inscricao">
     <h3>Quer fazer parte do nosso time?</h3>
     <p>Preencha o formulário abaixo para se inscrever e nos mostrar seu potencial!</p>
 
-    <form class="w3-container w3-card-4 w3-padding-16" action="/enviar-inscricao" method="post">
+    <form class="w3-container w3-card-4 w3-padding-16" onsubmit="return enviarWhatsApp()">
         <label class="w3-text-white"><b>Nome Completo</b></label>
-        <input class="w3-input w3-border" type="text" name="nome" required>
+        <input class="w3-input w3-border" type="text" id="nome" placeholder="Exemplo: João " required>
 
         <label class="w3-text-white"><b>Email</b></label>
-        <input class="w3-input w3-border" type="email" name="email" required>
+        <input class="w3-input w3-border" type="email" id="email" placeholder="Exemplo: joaozinho123@gmail.com " required>
 
         <label class="w3-text-white"><b>Idade</b></label>
-        <input class="w3-input w3-border" type="number" name="idade" min="16" required>
+        <input class="w3-input w3-border" type="number" id="idade" placeholder="Requisito: +16 anos" required>
 
         <label class="w3-text-white"><b>Posição Preferida</b></label>
-        <select class="w3-select w3-border" name="posicao">
+        <select class="w3-select w3-border" id="posicao" required>
             <option value="" disabled selected>Escolha sua posição</option>
             <option value="top">Top Laner</option>
             <option value="jungler">Jungler</option>
@@ -196,28 +199,51 @@
         </select>
 
         <label class="w3-text-white"><b>Tempo de Experiência</b></label>
-        <input class="w3-input w3-border" type="text" name="experiencia" placeholder="Exemplo: 2 anos em times amadores" required>
+        <input class="w3-input w3-border" type="text" id="experiencia" placeholder="Exemplo: 2 anos em times amadores" required>
 
         <label class="w3-text-white"><b>Mensagem Adicional</b></label>
-        <textarea class="w3-input w3-border" name="mensagem" rows="4" placeholder="Conte-nos por que você quer fazer parte do time!"></textarea>
+        <textarea class="w3-input w3-border" id="mensagem" rows="4" placeholder="Conte-nos por que você quer fazer parte do time!"></textarea>
 
         <button class="w3-button w3-yellow w3-margin-top" type="submit">Enviar Inscrição</button>
     </form>
 </div>
 
-<footer class="w3-center w3-padding-16 w3-dark-gray">
+<script>
+    function enviarWhatsApp() {
+        var nome = document.getElementById("nome").value;
+        var email = document.getElementById("email").value;
+        var idade = document.getElementById("idade").value;
+        var posicao = document.getElementById("posicao").value;
+        var experiencia = document.getElementById("experiencia").value;
+        var mensagem = document.getElementById("mensagem").value;
+
+        var numero = "+5512997756865"; // Número do WhatsApp
+        var texto = `Nome: ${nome}%0AEmail: ${email}%0AIdade: ${idade}%0APosição: ${posicao}%0ATempo de Experiência: ${experiencia}%0AMensagem: ${mensagem}`;
+
+        // URL do WhatsApp
+        var url = `https://wa.me/${numero}?text=${texto}`;
+
+        // Redireciona para o WhatsApp
+        window.open(url, '_blank');
+
+        return false; 
+    }
+</script>
+
+-----------------------------------------------
+<footer class="w3-center w3-padding-16 w3-yellow">
     <p class="w3-small">© 2024 Trinity e-Sports. Todos os direitos reservados.</p>
     <p class="w3-small">Desenvolvido por Trinity e-Sports | 
-        <a href="https://www.trinityesports.com" class="w3-text-white">www.trinityesports.com</a>
+        <a href="https://www.trinityesports.com" class="w3-text-black">www.trinityesports.com</a>
     </p>
     <p class="w3-small">Siga-nos nas redes sociais: 
-        <a href="https://www.facebook.com/trinityesports" class="w3-text-white">Facebook</a> | 
-        <a href="https://www.twitter.com/trinityesports" class="w3-text-white">Twitter</a> | 
-        <a href="https://www.instagram.com/trinityesports" class="w3-text-white">Instagram</a>
+        <a href="https://www.facebook.com/trinityesports" class="w3-text-black">Facebook</a> | 
+        <a href="https://www.twitter.com/trinityesports" class="w3-text-black">Twitter</a> | 
+        <a href="https://www.instagram.com/trinityesports" class="w3-text-black">Instagram</a>
     </p>
     <p class="w3-small">
-        <a href="#" class="w3-text-white">Política de Privacidade</a> | 
-        <a href="#" class="w3-text-white">Termos de Uso</a>
+        <a href="#" class="w3-text-black">Política de Privacidade</a> | 
+        <a href="#" class="w3-text-black">Termos de Uso</a>
     </p>
 </footer>
 
