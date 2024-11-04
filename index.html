@@ -6,11 +6,27 @@
     <title>Trinity E-Sports</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0;
+            }
+            .painel {
+                width: 80%; /* Aumenta a largura dos painéis para 80% em dispositivos móveis */
+                margin: 10px auto; /* Centraliza e dá margem entre os painéis */
+            }
+            .titulo h1 {
+                font-size: 6em; /* Tamanho reduzido para telas pequenas */
+            }
+            .titulo h2 {
+                font-size: 3em; /* Tamanho reduzido para telas pequenas */
+            }
+        }
+
         body {
             background-color: rgb(0, 0, 0);
             margin: 0;
             padding: 0;
+            color: white; /* Define a cor do texto como branco para melhor visibilidade */
         }
 
         .titulo h1 {
@@ -35,16 +51,19 @@
 
         .painel-container {
             display: flex;
-            justify-content: space-around;
+            flex-wrap: wrap; /* Permite que os painéis se movam para a próxima linha */
+            justify-content: center; /* Centraliza os painéis */
             align-items: center;
-            height: 40vh;
+            height: auto; /* Altura automática para adaptar o conteúdo */
         }
 
         .painel {
             background-color: yellow;
-            width: 15%;
+            width: 15%; /* Ajuste a largura para 15% em telas maiores */
+            max-width: 225px; /* Adiciona um limite máximo */
             padding: 10px;
             border-radius: 10px;
+            margin: 10px; /* Margem entre os painéis */
         }
 
         .painel img {
@@ -57,8 +76,6 @@
             text-align: center;
             margin-top: 10px;
         }
-
-
     </style>
 </head>
 <body>
@@ -76,7 +93,7 @@
                 <b><h1>Trinity E-Sports</h1></b>
             </div>
         </div>
-        <img src="trinity.png" alt="Imagem 1">
+        <img src="trinity.png" alt="Imagem 1" style="max-width: 100%; height: auto;"> <!-- Imagem responsiva -->
     </div>
 
     <div class="w3-text-white w3-center">
@@ -131,122 +148,51 @@
 
     <hr style="border: none; height: 1px; background-color: yellow; margin: 20px 0;">
     
-<div class="titulo h2 w3-text-white w3-center w3-hover-opacity" id="timeb">
+    <div class="titulo h2 w3-text-white w3-center w3-hover-opacity" id="timeb">
         <p>
-            <a href="https://www.op.gg/multisearch/br?summoners=TnT+Shinazugawa%23TnT%2Ctnt+11gaia11%23tnt%2CTnT+JhonJhon%23TnT%2CTnT+Pruds%23TnT%2Ct"target="_blank">
+            <a href="https://www.op.gg/multisearch/br?summoners=TnT+Shinazugawa%23TnT%2Ctnt+11gaia11%23tnt%2CTnT+JhonJhon%23TnT%2CTnT+Pruds%23TnT%2Ct" target="_blank">
                 <h1>Time B</h1>
             </a>
         </p>
     </div>
 
     <div class="painel-container">
-
         <!-- Painel 1 -->
         <div class="painel w3-hover-opacity">
-            <img src="shina.png" alt="Imagem 1" style="width:225px;height:225px;">
-            <a href="https://www.op.gg/summoners/br/TnT%20Shinazugawa-TnT" target="_blank"><h3><b>TnT Shinazugawa</b></h3></a>
+            <img src="jhon.png" alt="Imagem 1" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20JhonJhon-TnT" target="_blank"><h3><b>TnT JhonJhon</b></h3></a>
         </div>
         <!-- Painel 2 -->
         <div class="painel w3-hover-opacity">
-            <img src="boneco.png" alt="Imagem 2" style="width:225px;height:225px;">
-            <a href="https://www.op.gg/summoners/br/TnT%20Adefinir-TnT" target="_blank"><h3><b>TnT Adefinir</b></h3></a>
+            <img src="gaia.png" alt="Imagem 2" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%2011gaia11-TnT" target="_blank"><h3><b>TnT 11gaia11</b></h3></a>
         </div>
         <!-- Painel 3 -->
         <div class="painel w3-hover-opacity">
-            <img src="gaia.png" alt="Imagem 3" style="width:225px;height:225px;">
-            <a href="https://www.op.gg/summoners/br/TnT%2011gaia11-TnT" target="_blank"><h3><b>TnT 11gaia11</b></h3></a>
+            <img src="shinazugawa.png" alt="Imagem 3" style="width:225px;height:225px;">
+            <a href="https://www.op.gg/summoners/br/TnT%20Shinazugawa-TnT" target="_blank"><h3><b>TnT Shinazugawa</b></h3></a>
         </div>
         <!-- Painel 4 -->
         <div class="painel w3-hover-opacity">
-            <img src="jhowjhow.png" alt="Imagem 4" style="width:225px;height:225px;">
-            <a href="https://www.op.gg/summoners/br/TnT%20JhonJhon-TnT" target="_blank"><h3><b>TnT JhowJhow</b></h3></a>
-        </div>
-        <!-- Painel 5 -->
-        <div class="painel w3-hover-opacity">
-            <img src="pruds.png" alt="Imagem 5" style="width:225px;height:225px;">
+            <img src="pruds.png" alt="Imagem 4" style="width:225px;height:225px;">
             <a href="https://www.op.gg/summoners/br/TnT%20Pruds-TnT" target="_blank"><h3><b>TnT Pruds</b></h3></a>
         </div>
     </div>
 
     <div class="w3-text-white w3-center">
-        <h3>O Time B (Academy) é a força emergente do nosso clube, formado por talentos promissores que estão prontos para brilhar no cenário competitivo. Enquanto nossa equipe principal, Time A, se prepara para as grandes ligas, o Time B está em constante evolução, disputando vagas e mostrando sua habilidade em campeonatos de alto nível.</h3>
+        <h3>Time B é uma equipe que está sempre em evolução. Nós, da Trinity, não medimos esforços para garantir que nossos jogadores tenham o suporte necessário para se desenvolverem e alcançarem seus objetivos. Seja em campeonatos ou em treinos, cada membro do Time B trabalha arduamente para conquistar seu espaço.</h3>
     </div>
 
-<hr style="border: none; height: 1px; background-color: yellow; margin: 20px 0;"> ----------------------------------------------------------------------------------------------------------
+    <hr style="border: none; height: 1px; background-color: yellow; margin: 20px 0;">
 
+    <div class="titulo h2 w3-text-white w3-center w3-hover-opacity" id="inscricao">
+        <h1>Inscreva-se</h1>
+    </div>
 
-<div class="w3-container w3-padding-32 w3-black w3-color-text-white" style="margin-top: 50px;" id="inscricao">
-    <h3>Quer fazer parte do nosso time?</h3>
-    <p>Preencha o formulário abaixo para se inscrever e nos mostrar seu potencial!</p>
-
-    <form class="w3-container w3-card-4 w3-padding-16" onsubmit="return enviarWhatsApp()">
-        <label class="w3-text-white"><b>Nome Completo</b></label>
-        <input class="w3-input w3-border" type="text" id="nome" placeholder="Exemplo: João " required>
-
-        <label class="w3-text-white"><b>Email</b></label>
-        <input class="w3-input w3-border" type="email" id="email" placeholder="Exemplo: joaozinho123@gmail.com " required>
-
-        <label class="w3-text-white"><b>Idade</b></label>
-        <input class="w3-input w3-border" type="number" id="idade" placeholder="Requisito: +16 anos" required>
-
-        <label class="w3-text-white"><b>Posição Preferida</b></label>
-        <select class="w3-select w3-border" id="posicao" required>
-            <option value="" disabled selected>Escolha sua posição</option>
-            <option value="top">Top Laner</option>
-            <option value="jungler">Jungler</option>
-            <option value="mid">Mid Laner</option>
-            <option value="adc">AD Carry</option>
-            <option value="suporte">Suporte</option>
-        </select>
-
-        <label class="w3-text-white"><b>Tempo de Experiência</b></label>
-        <input class="w3-input w3-border" type="text" id="experiencia" placeholder="Exemplo: 2 anos em times amadores" required>
-
-        <label class="w3-text-white"><b>Mensagem Adicional</b></label>
-        <textarea class="w3-input w3-border" id="mensagem" rows="4" placeholder="Conte-nos por que você quer fazer parte do time!"></textarea>
-
-        <button class="w3-button w3-yellow w3-margin-top" type="submit">Enviar Inscrição</button>
-    </form>
-</div>
-
-<script>
-    function enviarWhatsApp() {
-        var nome = document.getElementById("nome").value;
-        var email = document.getElementById("email").value;
-        var idade = document.getElementById("idade").value;
-        var posicao = document.getElementById("posicao").value;
-        var experiencia = document.getElementById("experiencia").value;
-        var mensagem = document.getElementById("mensagem").value;
-
-        var numero = "+5512997756865"; // Número do WhatsApp
-        var texto = `Nome: ${nome}%0AEmail: ${email}%0AIdade: ${idade}%0APosição: ${posicao}%0ATempo de Experiência: ${experiencia}%0AMensagem: ${mensagem}`;
-
-        // URL do WhatsApp
-        var url = `https://wa.me/${numero}?text=${texto}`;
-
-        // Redireciona para o WhatsApp
-        window.open(url, '_blank');
-
-        return false; 
-    }
-</script>
-
------------------------------------------------
-<footer class="w3-center w3-padding-16 w3-yellow">
-    <p class="w3-small">© 2024 Trinity e-Sports. Todos os direitos reservados.</p>
-    <p class="w3-small">Desenvolvido por Trinity e-Sports | 
-        <a href="https://www.trinityesports.com" class="w3-text-black">www.trinityesports.com</a>
-    </p>
-    <p class="w3-small">Siga-nos nas redes sociais: 
-        <a href="https://www.facebook.com/trinityesports" class="w3-text-black">Facebook</a> | 
-        <a href="https://www.twitter.com/trinityesports" class="w3-text-black">Twitter</a> | 
-        <a href="https://www.instagram.com/trinityesports" class="w3-text-black">Instagram</a>
-    </p>
-    <p class="w3-small">
-        <a href="#" class="w3-text-black">Política de Privacidade</a> | 
-        <a href="#" class="w3-text-black">Termos de Uso</a>
-    </p>
-</footer>
+    <div class="w3-container w3-center">
+        <h3>Para se inscrever e se juntar a nós, basta clicar no botão abaixo!</h3>
+        <a href="https://discord.com/invite/yqC7yqQyqY" target="_blank" class="w3-button w3-yellow w3-hover-orange" style="font-size: 20px; margin: 10px;">Inscrever-se</a>
+    </div>
 
 </body>
 </html>
